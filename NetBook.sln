@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MLNET", "MLNET", "{8AC4EB7F-02C4-4763-92F4-D5DB34252700}"
-	ProjectSection(SolutionItems) = preProject
-		MLIntro\README.md = MLIntro\README.md
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLIntro", "MLIntro\MLIntro.csproj", "{9CCFE83C-9BDE-4FF6-89AD-BCCD82B5DBDC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearRegressionFromScratch", "LinearRegressionFromScratch\LinearRegressionFromScratch.csproj", "{02E7382D-64F9-40C2-8B93-A7DDB5D00155}"
@@ -15,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleLinearRegressionFromScratch", "MultipleLinearRegressionFromScratch\MultipleLinearRegressionFromScratch.csproj", "{EFF509DF-0F99-49A2-91AC-674AC48AE622}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearRegressionMLNET", "LinearRegressionMLNET\LinearRegressionMLNET.csproj", "{4DAF0D87-79F5-4454-8015-4B20EB046AD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETML", "NETML", "{40F15A36-959E-48E9-AAA3-B1521A519747}"
+	ProjectSection(SolutionItems) = preProject
+		MLIntro\README.md = MLIntro\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +43,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9CCFE83C-9BDE-4FF6-89AD-BCCD82B5DBDC} = {8AC4EB7F-02C4-4763-92F4-D5DB34252700}
-		{02E7382D-64F9-40C2-8B93-A7DDB5D00155} = {8AC4EB7F-02C4-4763-92F4-D5DB34252700}
-		{EFF509DF-0F99-49A2-91AC-674AC48AE622} = {8AC4EB7F-02C4-4763-92F4-D5DB34252700}
-		{4DAF0D87-79F5-4454-8015-4B20EB046AD3} = {8AC4EB7F-02C4-4763-92F4-D5DB34252700}
+		{9CCFE83C-9BDE-4FF6-89AD-BCCD82B5DBDC} = {40F15A36-959E-48E9-AAA3-B1521A519747}
+		{02E7382D-64F9-40C2-8B93-A7DDB5D00155} = {40F15A36-959E-48E9-AAA3-B1521A519747}
+		{EFF509DF-0F99-49A2-91AC-674AC48AE622} = {40F15A36-959E-48E9-AAA3-B1521A519747}
+		{4DAF0D87-79F5-4454-8015-4B20EB046AD3} = {40F15A36-959E-48E9-AAA3-B1521A519747}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E3D5D5E-416B-4887-B32A-831BDFD559D9}
