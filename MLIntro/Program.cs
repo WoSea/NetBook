@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+ https://rubikscode.net/2021/01/04/machine-learning-with-ml-net-introduction/
+*/
+using System;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 namespace MLIntro
