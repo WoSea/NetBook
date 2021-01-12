@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MLNET", "MLNET", "{8AC4EB7F-02C4-4763-92F4-D5DB34252700}"
+	ProjectSection(SolutionItems) = preProject
+		MLIntro\README.md = MLIntro\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLIntro", "MLIntro\MLIntro.csproj", "{9CCFE83C-9BDE-4FF6-89AD-BCCD82B5DBDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CCFE83C-9BDE-4FF6-89AD-BCCD82B5DBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCFE83C-9BDE-4FF6-89AD-BCCD82B5DBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCFE83C-9BDE-4FF6-89AD-BCCD82B5DBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCFE83C-9BDE-4FF6-89AD-BCCD82B5DBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CCFE83C-9BDE-4FF6-89AD-BCCD82B5DBDC} = {8AC4EB7F-02C4-4763-92F4-D5DB34252700}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E3D5D5E-416B-4887-B32A-831BDFD559D9}
+	EndGlobalSection
+EndGlobal
